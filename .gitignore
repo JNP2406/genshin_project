@@ -1,0 +1,12 @@
+backend/node_modules/
+backend/.env
+backend/uploads/
+
+genshin_import/build/
+genshin_import/.flutter-plugins
+genshin_import/.flutter-plugins-dependencies
+genshin_import/.packages
+genshin_import/android/.gradle/
+genshin_import/android/local.properties
+genshin_import/ios/.symlinks/
+genshin_import/ios/Pods/
