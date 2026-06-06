@@ -4,16 +4,6 @@ Aplikasi e-commerce seluler bertema game populer **Genshin Impact**. Aplikasi in
 
 ---
 
-## 👥 Tim Pengembang
-
-| Nama | NIM |
-|------|-----|
-| Jason Nathaniel Prijatno | 2802390136 |
-| Naufal Maulana Ichlas | 2802391416 |
-| Yupriando | 2802392204 |
-
----
-
 ## 🛠️ Technology Stack
 
 | Komponen | Teknologi |
