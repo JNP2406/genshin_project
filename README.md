@@ -143,57 +143,6 @@ Aplikasi e-commerce seluler bertema game populer **Genshin Impact**. Aplikasi in
 
 ---
 
-## ⚙️ Cara Setup
-
-### Prasyarat
-- Flutter SDK 3.32.2
-- Node.js & npm
-- XAMPP (MySQL)
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/username/genshin-import.git
-cd genshin-import
-```
-
-### 2. Setup Database
-- Jalankan XAMPP dan aktifkan MySQL
-- Import file `backend/database/genshin_import.sql` melalui phpMyAdmin
-
-### 3. Setup Backend
-```bash
-cd backend
-npm install
-```
-Buat file `.env`:
-```
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=genshin_import
-JWT_SECRET=your_secret_key
-```
-Jalankan backend:
-```bash
-node server.js
-```
-
-### 4. Setup Flutter
-```bash
-cd genshin_import
-flutter pub get
-```
-Update IP di `lib/utils/url_helper.dart`:
-```dart
-static String baseUrl = 'http://IP_PC_KAMU:3000';
-```
-Jalankan app:
-```bash
-flutter run
-```
-
----
-
 ## 🎨 UI Design
 
 ### Font
